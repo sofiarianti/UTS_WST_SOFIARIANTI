@@ -45,7 +45,7 @@ function renderCart() {
 
 async function loadProducts() {
   try {
-    const response = await fetch("/api/barang");
+    const response = await fetch("/api/products");
     if (!response.ok) throw new Error(`Permintaan gagal dengan status ${response.status}`);
     products = await response.json();
     productStatus.textContent = `${products.length} produk tersedia`;
