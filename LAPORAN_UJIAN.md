@@ -12,6 +12,7 @@
 | Tombol keranjang | | | | | |
 | Total belanja | | | | | |
 
+
 ## B. Hasil pengujian
 - Jumlah pengujian sebelum perbaikan:
 - Jumlah pengujian berhasil setelah perbaikan:
